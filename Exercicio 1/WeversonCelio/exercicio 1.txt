@@ -1,0 +1,82 @@
+*** 1- Crie um novo repositório local com um projeto à sua escolha e realize pelo menos dois commits neste repositório***
+
+wever@LAPTOP-IKQ8R6TJ MINGW64 /d/GIT-WEVERSON/Exercicios (master)
+$ mkdir newpt
+
+$ git commit -m "primeiro commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+        Exercicio 1/WeversonCelio/
+
+nothing added to commit but untracked files present
+
+$ git commit -m "segundo commit"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+        Exercicio 1/WeversonCelio/
+
+nothing added to commit but untracked files present
+
+
+***2- Escolha um repositório disponível no GitHub e faça a clonagem do mesmo, identificando qual foi o autor do último commit realizado no projeto e a(s) linguagem(s) utilizadas.***
+
+https://github.com/MicrosoftLearning/AZ-103-MicrosoftAzureAdministrator.git
+
+Merge pull request #240 from itbland/master …
+
+@polichtm
+polichtm committed 6 days ago
+
+
+***3- Identifique a finalidade dos seguintes comandos:***
+a. git init 
+R= criar o repositório
+
+b. git config --global user.name "turing"
+R= nome de usuário
+
+c. git add EXERCICIO.txt
+R= Adicionar exercicio.txt
+
+d. git add .
+R= adicionar todos os arquivos
+
+e. git commit -m "Adicionado nova interface"
+R= comitar o arquivo
+
+f. git commit
+R= comitar sem comentarios
+
+g. git reset --hard HEAD
+R= git-reset - Redefine o HEAD atual para o estado especificado
+
+h. cd Downloads
+R= abrir pasta 
+
+i. pwd
+R= mostrar diretorio atual
+
+j. cd ..
+R= volta a pasta acima
+
+k. ls
+R= listar arquivos 
+
+l. git pull
+R= Busque e integre-se a outro repositório ou uma filial local
+
+m. git push
+R= Atualiza referências remotas junto com objetos associados
+
+n. git clone https://github.com/wiecodepython/Exercicios.git
+R= Clona um repositório em um novo diretório
+
+o. git diff
+R= Mostra alterações entre confirmações, confirmação e árvore de trabalho, etc
+
+p. git show
+R= Mostra vários tipos de objetos
