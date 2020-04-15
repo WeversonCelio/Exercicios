@@ -5,3 +5,6 @@ print(frase[0:6])
 print(frase[7])
 print(frase[9:14])
 print(frase[15:21])
+
+print("essa frase tem tamanho ", len(frase))
+print(frase[::-1])
